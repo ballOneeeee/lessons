@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+/* Селектор атрибута — запит по назві атрибута: */
+[class*="ukr"] {
+	color: blue;
+}
+
+/* запит по назві класу починається з .*/
+.title-1 {
+	color: orange;
+}
+
+/* запит по назві класу */
+.container {
+	color: darkorange;
+}
+
+/* Усі теги span всередині об'єктів з класом .container */
+.container span {
+	color: red;
+}
+
+/* звернення до усіх тегів p з класом text */
+p.text {
+	color: darkmagenta;
+}
+
+/* звернення до усіх тегів div з класом text та info */
+.text.info {
+	color: green;
+}
+
+/* звернення до усіх тегів h2 з класом title */
+h2.title {
+	color: blue;
+}
+
+/* Усі об'єкти з класом list всередині об'єктів з класом block*/
+.block .list {
+	color: teal;
+}
+
+
+
+/* селектор тегу починається з # */
+#section-5 {
+	color: green;
+}
